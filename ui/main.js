@@ -3,7 +3,7 @@ console.log('Loaded!');
 var element = document.getElementById('main-text');
 element.innerHTML = 'I am an Indian';
 // move the image
-var img = document.getElementById('madi');
+var img = document.getElementById('img');
 img.onclick = function () {
-    img.style.marginLeft ='100px';
+    img.style.marginLeft = '100px';
 };
